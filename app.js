@@ -5,6 +5,9 @@ const express = require("express"),
     methodOverride = require("method-override"),
     cors = require("cors");
 
+
+    require("dotenv").config();
+
     require("./dbConfig").connection;
 
 
