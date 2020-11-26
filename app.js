@@ -27,7 +27,7 @@ app.use(cors(corsOptions));
 
 const PatientRoutes = require("./router/patient");
 
-app.use("https://patient-node-deploy.herokuapp.com/", PatientRoutes);
+app.use("/api/patient", PatientRoutes);
 
 //port 
 const PORT =  5000;
