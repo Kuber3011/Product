@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const url = "mongodb://localhost:27017/PatientData";
-const Mongo_Url = "mongodb+srv://admin:6UGuHXSJsayZaWeJ@mongodb.jvask.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const Mongo_Url = "mongodb+srv://admin:6UGuHXSJsayZaWeJ@mongodb.jvask.mongodb.net/PatientData?retryWrites=true&w=majority";
 
 module.exports = {
     
