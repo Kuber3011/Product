@@ -5,7 +5,7 @@ const Mongo_Url = "mongodb+srv://admin:6UGuHXSJsayZaWeJ@mongodb.jvask.mongodb.ne
 module.exports = {
     
     connection: mongoose
-        .connect(Mongo_Url,{ useNewUrlParser: true,useUnifiedTopology: true })
+        .connect(Mongo_Url ,{ useNewUrlParser: true,useUnifiedTopology: true })
         .then(() => {
             console.log("Successfully connected to MongoDB.");
         })
